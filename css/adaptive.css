@@ -164,61 +164,132 @@
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 320px) {
     /* Header */
-
+    .wrapper {
+        max-width: 320px;
+    }
     .header__content {
-        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
-    
-    .header__logo {
-        visibility: hidden;
+
+    .header__logo-link {
+        display: none;
     }
-    
+
     .header__nav {
-        margin-right: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .header__nav-item {
-        font-size: 40px;
-    }
-
-    /* Why */
-    .why__header{
-        font-size: 150px;
-        margin-bottom: 100px;
-    }
-
-    .why__item-header {
         font-size: 100px;
     }
 
+    .header__nav-item {
+        margin-bottom: 100px;
+    }
+
+    .header__nav-item:first-child {
+        margin-top: 100px;
+    }
+
+    .header__nav-item:not(:last-child) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* Main */
+    .main__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 120px;
+    }
+
+    .main__header {
+        font-size: 100px;
+        text-align: center;
+        width: 70%;
+    }
+
+    .main__description {
+        font-size: 65px;
+        text-align: center;
+    }
+
+    /* Why */
+    .why__content {
+        text-align: center;
+    }
+
+    .why__list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .why__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why__item-img {
+        display: none;
+    }
+
+    .why__header{
+        font-size: 100px;
+        margin-bottom: 100px;
+    }
+
+    .why__item-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why__item-header {
+        font-size: 75px;
+    }
+
     .why__item-description {
-        font-size: 70px;
+        font-size: 60px;
+        width: 50%;
     }
 
     /* Do */
     .do__header {
-        font-size: 150px;
+        font-size: 100px;
     }
 
     .do__list {
         flex-direction: column;
+        margin-right: 0px;
+    }
+
+    .do__item {
+        margin-right: 0px;
+    }
+
+    .do__item:not(:last-child){
+        margin-right: 0px;
     }
 
     /* About */
     .about__header {
-        font-size: 150px;
+        font-size: 100px;
     }
+
 
     .about__description {
         margin: 0;
         font-size: 70px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-
-    .why__item-description {
-        width: 70%;
+        padding-left: 300px;
+        padding-right: 300px;
+        text-align: center;
     }
 }
