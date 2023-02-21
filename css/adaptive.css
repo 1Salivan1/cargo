@@ -164,7 +164,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 420px) {
     .wrapper {
         min-width: 1200px;
     }
