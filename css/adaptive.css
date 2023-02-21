@@ -165,7 +165,14 @@
 }
 
 @media (max-width: 320px) {
+    .wrapper {
+        min-width: 1200px;
+    }
     /* Header */
+    * {
+        margin-left: 0;
+    }
+
     .wrapper {
         max-width: 320px;
     }
@@ -173,6 +180,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+        margin: 0;
     }
 
     .header__logo-link {
@@ -208,6 +216,7 @@
         flex-direction: column;
         align-items: center;
         padding-bottom: 120px;
+        margin: 0;
     }
 
     .main__header {
@@ -277,6 +286,10 @@
 
     .do__item:not(:last-child){
         margin-right: 0px;
+    }
+
+    .do__block {
+        padding: 0;
     }
 
     /* About */
