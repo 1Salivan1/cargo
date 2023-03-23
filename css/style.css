@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     font-family: 'Cuprum', sans-serif;
     color: white;
 }
@@ -13,8 +12,13 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1720px;
+    padding-left: 40px;
+    padding-right: 40px;
     margin: 0 auto;
+}
+
+.wrapper {
+    min-width: 1720px;
 }
 
 li {
@@ -29,10 +33,6 @@ ul {
 a {
     color: #353535;
     text-decoration: none;
-}
-
-.wrapper {
-    min-width: 1720px;
 }
 
 .header__burger{
@@ -260,6 +260,7 @@ header {
 
 .footer__content {
     display: flex;
+    justify-content: space-around;
 }
 
 .footer__left-header {
@@ -282,10 +283,6 @@ header {
 
 .footer__link {
     color: white;
-}
-
-.footer__left {
-    margin-right: 368px;
 }
 
 .footer__left-header {
@@ -368,7 +365,6 @@ input {
 
 .footer__right {
     text-align: right;
-    margin-left: auto;
 }
 
 .footer__right-header {
