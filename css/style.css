@@ -8,15 +8,16 @@ body {
 *:after {
     box-sizing: border-box;
 }
-
+  
 .wrapper {
     width: 100%;
 }
 
 .container {
-    max-width: 1720px;
-    padding: 0 40px;
-    margin: 0px auto;
+    max-width: 1400px;
+    padding: 0 100px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
   
 li {
