@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@400;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cargo</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
@@ -23,107 +23,99 @@
 <body>
     <div class="wrapper">
         <!-- Header -->
-        <header class="header">
-            <div class="container">
-                <div class="header__content">
-                    <a class="header__logo-link">
-                        <img class="header__logo" src="img/Logo.png">
-                    </a>
-                    <div class="header__burger">
-                        <span>
-                    </div>
-                    <nav class="header__nav">
-                        <a class="header__nav-item anchor" href="#about">О компании</a>
-                        <a class="header__nav-item">Цены</a>
-                        <a class="header__nav-item anchor" href="#service">Услуги</a>
-                        <a class="header__nav-item country">Страны</a>
-                    </nav>
+        <header class="header container">
+            <div class="header__content">
+                <a class="header__logo-link">
+                    <img class="header__logo" src="img/Logo.png">
+                </a>
+                <div class="header__burger">
+                    <span>
                 </div>
+                <nav class="header__nav">
+                    <a class="header__nav-item anchor" href="#about">О компании</a>
+                    <a class="header__nav-item">Цены</a>
+                    <a class="header__nav-item anchor" href="#service">Услуги</a>
+                    <a class="header__nav-item country">Страны</a>
+                </nav>
             </div>
         </header>
 
         <!-- Main -->
-        <section class="main">
-            <div class="container">
-                <div class="main__content">
-                    <h1 class="main__header animate__animated animate__fadeInRight">Если вам нужно что-то перевезти, то вы по адресу!</h1>
-                    <p class="main__description animate__animated animate__fadeInRightBig">Мы поможем реализовать доставку практически любой сложности.</p>
-                    <form class="main__form">
-                        <button class="btn main__btn animate__animated animate__fadeInRightBig">Сделать заказ</button>
-                    </form>
-                </div>
+        <section class="main container">
+            <div class="main__content">
+                <h1 class="main__header animate__animated animate__fadeInRight">Если вам нужно что-то перевезти, то вы по адресу!</h1>
+                <p class="main__description animate__animated animate__fadeInRightBig">Мы поможем реализовать доставку практически любой сложности.</p>
+                <form class="main__form">
+                    <button class="btn main__btn animate__animated animate__fadeInRightBig">Сделать заказ</button>
+                </form>
             </div>
         </section>
 
         <!-- Why -->
-        <section class="why">
-            <div class="container">
-                <div class="why__content">
-                    <h1 class="why__header wow animate__animated animate__fadeInDown">Почему именно мы?</h1>
-                    <ul class="why__list">
-                        <li class="why__item wow animate__animated animate__fadeInLeft">
-                            <img class="why__item-img" src="img/stopwatch.png">
-                            <div class="why__item-left">
-                                <h2 class="why__item-header">Скорость</h2>
-                                <p class="why__item-description why__item-description-one">
-                                    Благодаря новейшим технологиям, ваш заказ будет погружен и отправлен
-                                    в кратчайшие сроки.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="why__item wow animate__animated animate__fadeInLeft">
-                            <img class="why__item-img" src="img/badge.png">
-                            <div class="why__item-left">
-                                <h2 class="why__item-header">Качество</h2>
-                                <p class="why__item-description why__item-description-two">
-                                    Ваш заказ будут перевозить только опытные водители с обширным опытом работы. 
-                                </p>
-                            </div>
-                        </li>
-                        <li class="why__item wow animate__animated animate__fadeInLeft">
-                            <img class="why__item-img" src="img/best-price.png">
-                            <div class="why__item-left">
-                                <h2 class="why__item-header">Выгодные цены</h2>
-                                <p class="why__item-description why__item-description-three">
-                                    Наша компания использует кратчайшие пути, из за чего перевозка товаров не требует 
-                                    больших затрат.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+        <section class="why container">
+            <div class="why__content">
+                <h1 class="why__header wow animate__animated animate__fadeInDown">Почему именно мы?</h1>
+                <ul class="why__list">
+                    <li class="why__item wow animate__animated animate__fadeInLeft">
+                        <img class="why__item-img" src="img/stopwatch.png">
+                        <div class="why__item-left">
+                            <h2 class="why__item-header">Скорость</h2>
+                            <p class="why__item-description why__item-description-one">
+                                Благодаря новейшим технологиям, ваш заказ будет погружен и отправлен
+                                в кратчайшие сроки.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="why__item wow animate__animated animate__fadeInLeft">
+                        <img class="why__item-img" src="img/badge.png">
+                        <div class="why__item-left">
+                            <h2 class="why__item-header">Качество</h2>
+                            <p class="why__item-description why__item-description-two">
+                                Ваш заказ будут перевозить только опытные водители с обширным опытом работы. 
+                            </p>
+                        </div>
+                    </li>
+                    <li class="why__item wow animate__animated animate__fadeInLeft">
+                        <img class="why__item-img" src="img/best-price.png">
+                        <div class="why__item-left">
+                            <h2 class="why__item-header">Выгодные цены</h2>
+                            <p class="why__item-description why__item-description-three">
+                                Наша компания использует кратчайшие пути, из за чего перевозка товаров не требует 
+                                больших затрат.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </section>
 
         <!-- What we do -->
-        <section class="do" id="service">
-            <div class="container">
-                <div class="do__content">
-                    <h1 class="do__header wow animate__animated animate__fadeInDown">Что мы можем предложить?</h1>
-                    <div class="do__list">
-                        <div class="do__item wow animate__animated animate__fadeInDown">
-                            <div class="do__block">
-                                <img class="do__img" src="img/delivery.png">
-                                <h2 class="do__item-description">Дорожная <br>транспортировка</h2>
-                            </div>
+        <section class="do container" id="service">
+            <div class="do__content">
+                <h1 class="do__header wow animate__animated animate__fadeInDown">Что мы можем предложить?</h1>
+                <div class="do__list">
+                    <div class="do__item wow animate__animated animate__fadeInDown">
+                        <div class="do__block">
+                            <img class="do__img" src="img/delivery.png">
+                            <h2 class="do__item-description">Дорожная <br>транспортировка</h2>
                         </div>
-                        <div class="do__item wow animate__animated animate__fadeInDown">
-                            <div class="do__block">
-                                <img class="do__img" src="img/cargo-ship.png">
-                                <h2 class="do__item-description">Морская <br>транспортировка</h2>
-                            </div>
+                    </div>
+                    <div class="do__item wow animate__animated animate__fadeInDown">
+                        <div class="do__block">
+                            <img class="do__img" src="img/cargo-ship.png">
+                            <h2 class="do__item-description">Морская <br>транспортировка</h2>
                         </div>
-                        <div class="do__item wow animate__animated animate__fadeInDown">
-                            <div class="do__block">
-                                <img class="do__img" src="img/railroad.png">
-                                <h2 class="do__item-description">ЖД <br>транспортировка</h2>
-                            </div>
+                    </div>
+                    <div class="do__item wow animate__animated animate__fadeInDown">
+                        <div class="do__block">
+                            <img class="do__img" src="img/railroad.png">
+                            <h2 class="do__item-description">ЖД <br>транспортировка</h2>
                         </div>
-                        <div class="do__item wow animate__animated animate__fadeInDown">
-                            <div class="do__block">
-                                <img class="do__img" src="img/airplane.png">
-                                <h2 class="do__item-description">Воздушная <br>транспортировка</h2>
-                            </div>
+                    </div>
+                    <div class="do__item wow animate__animated animate__fadeInDown">
+                        <div class="do__block">
+                            <img class="do__img" src="img/airplane.png">
+                            <h2 class="do__item-description">Воздушная <br>транспортировка</h2>
                         </div>
                     </div>
                 </div>
@@ -131,99 +123,95 @@
         </section>
 
         <!-- About -->
-        <section class="about" id="about">
-            <div class="container">
-                <div class="about__content">
-                    <h1 class="about__header wow animate__animated animate__fadeInDown">О нас</h1>
-                    <div class="about__block">
-                        <p class="about__description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                            do eiusmod tempor. 
-                            <br>Incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                            veniam, quis  nostrud exercitation ullamco laboris nisi ut aliquip 
-                            ex ea commodo consequat. 
-                            <br>Duis aute irure dolor in reprehenderit in voluptatevelit esse 
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
-                        <!-- <img class="about__img" src="img/illustration.png"> -->
-                    </div>
+        <section class="about container" id="about">
+            <div class="about__content">
+                <h1 class="about__header wow animate__animated animate__fadeInDown">О нас</h1>
+                <div class="about__block">
+                    <p class="about__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+                        do eiusmod tempor. 
+                        <br>Incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam, quis  nostrud exercitation ullamco laboris nisi ut aliquip 
+                        ex ea commodo consequat. 
+                        <br>Duis aute irure dolor in reprehenderit in voluptatevelit esse 
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <!-- <img class="about__img" src="img/illustration.png"> -->
                 </div>
             </div>
         </section>
 
         <!-- Footer -->
-        <footer class="footer">
-            <div class="container">
-                <div class="footer__content">
-                    <div class="footer__left">
-                        <h1 class="footer__header footer__left-header">Контакты</h1>
-                        <h2 class="footer__left-header-list">Номера телефонов:</h2>
-                        <ul class="footer__left-list">
-                            <li class="footer__item">
-                                <a href="#" class="footer__link">+(380)-999-999-999</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="#" class="footer__link">+(380)-777-777-777</a>
-                            </li>
-                        </ul>
-                        <h2 class="footer__left-header-list">E-mail:</h2>
-                        <ul class="footer__left-list">
-                            <li class="footer__item">
-                                <a href="#" class="footer__link">cargo@gmail.com</a>
-                            </li>
-                        </ul>
-                        <h2 class="footer__left-header-list">Наши соц. сети:</h2>
-                        <div class="footer__left-list-social">
-                            <div class="footer__social-item">
-                                <a href="https://www.instagram.com/" class="footer__link">
-                                    <svg class="footer__social-img" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_5_70)">
-                                    <path d="M36.2013 0.720215H13.7978C6.1897 0.720215 0 6.79079 0 14.2521V36.2234C0 43.685 6.1897 49.7553 13.7978 49.7553H36.2013C43.81 49.7553 49.9997 43.6847 49.9997 36.2234V14.2521C50 6.79079 43.81 0.720215 36.2013 0.720215ZM45.5638 36.2234C45.5638 41.2861 41.3639 45.4047 36.2016 45.4047H13.7978C8.63583 45.405 4.43622 41.2861 4.43622 36.2234V14.2521C4.43622 9.18973 8.63583 5.07085 13.7978 5.07085H36.2013C41.3636 5.07085 45.5635 9.18973 45.5635 14.2521V36.2234H45.5638Z" fill="white"/>
-                                    <path d="M24.9998 12.6033C17.8957 12.6033 12.1162 18.2713 12.1162 25.2384C12.1162 32.2052 17.8957 37.8729 24.9998 37.8729C32.104 37.8729 37.8835 32.2052 37.8835 25.2384C37.8835 18.2713 32.104 12.6033 24.9998 12.6033ZM24.9998 33.522C20.3421 33.522 16.5524 29.806 16.5524 25.2381C16.5524 20.6699 20.3418 16.9536 24.9998 16.9536C29.6579 16.9536 33.4473 20.6699 33.4473 25.2381C33.4473 29.806 29.6576 33.522 24.9998 33.522Z" fill="white"/>
-                                    <path d="M38.4239 8.91431C37.5691 8.91431 36.7295 9.25366 36.1259 9.84824C35.5193 10.4399 35.1706 11.2636 35.1706 12.1048C35.1706 12.9433 35.5196 13.7667 36.1259 14.3613C36.7292 14.953 37.5691 15.2952 38.4239 15.2952C39.2815 15.2952 40.1185 14.953 40.7248 14.3613C41.3311 13.7667 41.6771 12.943 41.6771 12.1048C41.6771 11.2636 41.3311 10.4399 40.7248 9.84824C40.1214 9.25366 39.2815 8.91431 38.4239 8.91431Z" fill="white"/>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_5_70">
-                                    <rect width="50" height="49.0354" fill="white" transform="translate(0 0.720215)"/>
-                                    </clipPath>
-                                    </defs>
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="footer__social-item">
-                                <a href="https://twitter.com/?lang=ru" class="footer__link">
-                                    <svg class="footer__social-img" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M56 14.4231C54.086 15.2567 52.03 15.8176 49.872 16.0707C52.076 14.7761 53.766 12.7265 54.562 10.2825C52.502 11.481 50.218 12.3518 47.786 12.8226C45.84 10.7886 43.068 9.51758 40 9.51758C34.108 9.51758 29.332 14.2034 29.332 19.9798C29.332 20.7996 29.428 21.5999 29.608 22.3629C20.742 21.9274 12.882 17.7614 7.61799 11.43C6.70199 12.9756 6.17599 14.7722 6.17599 16.6924C6.17599 20.3211 8.05799 23.524 10.92 25.3992C9.17199 25.3442 7.52599 24.8735 6.08799 24.0909C6.08799 24.136 6.08799 24.1772 6.08799 24.2223C6.08799 29.2926 9.76399 33.5214 14.646 34.4805C13.752 34.7198 12.808 34.8473 11.834 34.8473C11.148 34.8473 10.478 34.7806 9.82799 34.661C11.186 38.8172 15.126 41.8437 19.794 41.928C16.144 44.7348 11.544 46.4079 6.54399 46.4079C5.68399 46.4079 4.83399 46.3588 3.99799 46.2608C8.71999 49.2284 14.326 50.9603 20.352 50.9603C39.976 50.9603 50.704 35.0179 50.704 21.1919C50.704 20.7388 50.694 20.2877 50.674 19.8385C52.76 18.3616 54.57 16.5198 56 14.4231Z" fill="white"/>
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="footer__social-item">
-                                <a href="https://uk-ua.facebook.com/" class="footer__link">
-                                    <svg class="footer__social-img" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M30 6.70093C16.746 6.70093 6 17.2396 6 30.2379C6 42.0378 14.864 51.7821 26.412 53.4846V36.4752H20.474V30.2889H26.412V26.1719C26.412 19.356 29.798 16.3648 35.574 16.3648C38.34 16.3648 39.804 16.5668 40.496 16.6571V22.0568H36.556C34.104 22.0568 33.248 24.338 33.248 26.9074V30.2889H40.434L39.46 36.4752H33.248V53.5336C44.962 51.9763 54 42.1535 54 30.2379C54 17.2396 43.254 6.70093 30 6.70093Z" fill="white"/>
-                                    </svg>
-                                </a>
-                            </div>
+        <footer class="footer container">
+            <div class="footer__content">
+                <div class="footer__left">
+                    <h1 class="footer__header footer__left-header">Контакты</h1>
+                    <h2 class="footer__left-header-list">Номера телефонов:</h2>
+                    <ul class="footer__left-list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">+(380)-999-999-999</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">+(380)-777-777-777</a>
+                        </li>
+                    </ul>
+                    <h2 class="footer__left-header-list">E-mail:</h2>
+                    <ul class="footer__left-list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">cargo@gmail.com</a>
+                        </li>
+                    </ul>
+                    <h2 class="footer__left-header-list">Наши соц. сети:</h2>
+                    <div class="footer__left-list-social">
+                        <div class="footer__social-item">
+                            <a href="https://www.instagram.com/" class="footer__link">
+                                <svg class="footer__social-img" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_5_70)">
+                                <path d="M36.2013 0.720215H13.7978C6.1897 0.720215 0 6.79079 0 14.2521V36.2234C0 43.685 6.1897 49.7553 13.7978 49.7553H36.2013C43.81 49.7553 49.9997 43.6847 49.9997 36.2234V14.2521C50 6.79079 43.81 0.720215 36.2013 0.720215ZM45.5638 36.2234C45.5638 41.2861 41.3639 45.4047 36.2016 45.4047H13.7978C8.63583 45.405 4.43622 41.2861 4.43622 36.2234V14.2521C4.43622 9.18973 8.63583 5.07085 13.7978 5.07085H36.2013C41.3636 5.07085 45.5635 9.18973 45.5635 14.2521V36.2234H45.5638Z" fill="white"/>
+                                <path d="M24.9998 12.6033C17.8957 12.6033 12.1162 18.2713 12.1162 25.2384C12.1162 32.2052 17.8957 37.8729 24.9998 37.8729C32.104 37.8729 37.8835 32.2052 37.8835 25.2384C37.8835 18.2713 32.104 12.6033 24.9998 12.6033ZM24.9998 33.522C20.3421 33.522 16.5524 29.806 16.5524 25.2381C16.5524 20.6699 20.3418 16.9536 24.9998 16.9536C29.6579 16.9536 33.4473 20.6699 33.4473 25.2381C33.4473 29.806 29.6576 33.522 24.9998 33.522Z" fill="white"/>
+                                <path d="M38.4239 8.91431C37.5691 8.91431 36.7295 9.25366 36.1259 9.84824C35.5193 10.4399 35.1706 11.2636 35.1706 12.1048C35.1706 12.9433 35.5196 13.7667 36.1259 14.3613C36.7292 14.953 37.5691 15.2952 38.4239 15.2952C39.2815 15.2952 40.1185 14.953 40.7248 14.3613C41.3311 13.7667 41.6771 12.943 41.6771 12.1048C41.6771 11.2636 41.3311 10.4399 40.7248 9.84824C40.1214 9.25366 39.2815 8.91431 38.4239 8.91431Z" fill="white"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_5_70">
+                                <rect width="50" height="49.0354" fill="white" transform="translate(0 0.720215)"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="footer__social-item">
+                            <a href="https://twitter.com/?lang=ru" class="footer__link">
+                                <svg class="footer__social-img" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M56 14.4231C54.086 15.2567 52.03 15.8176 49.872 16.0707C52.076 14.7761 53.766 12.7265 54.562 10.2825C52.502 11.481 50.218 12.3518 47.786 12.8226C45.84 10.7886 43.068 9.51758 40 9.51758C34.108 9.51758 29.332 14.2034 29.332 19.9798C29.332 20.7996 29.428 21.5999 29.608 22.3629C20.742 21.9274 12.882 17.7614 7.61799 11.43C6.70199 12.9756 6.17599 14.7722 6.17599 16.6924C6.17599 20.3211 8.05799 23.524 10.92 25.3992C9.17199 25.3442 7.52599 24.8735 6.08799 24.0909C6.08799 24.136 6.08799 24.1772 6.08799 24.2223C6.08799 29.2926 9.76399 33.5214 14.646 34.4805C13.752 34.7198 12.808 34.8473 11.834 34.8473C11.148 34.8473 10.478 34.7806 9.82799 34.661C11.186 38.8172 15.126 41.8437 19.794 41.928C16.144 44.7348 11.544 46.4079 6.54399 46.4079C5.68399 46.4079 4.83399 46.3588 3.99799 46.2608C8.71999 49.2284 14.326 50.9603 20.352 50.9603C39.976 50.9603 50.704 35.0179 50.704 21.1919C50.704 20.7388 50.694 20.2877 50.674 19.8385C52.76 18.3616 54.57 16.5198 56 14.4231Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="footer__social-item">
+                            <a href="https://uk-ua.facebook.com/" class="footer__link">
+                                <svg class="footer__social-img" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M30 6.70093C16.746 6.70093 6 17.2396 6 30.2379C6 42.0378 14.864 51.7821 26.412 53.4846V36.4752H20.474V30.2889H26.412V26.1719C26.412 19.356 29.798 16.3648 35.574 16.3648C38.34 16.3648 39.804 16.5668 40.496 16.6571V22.0568H36.556C34.104 22.0568 33.248 24.338 33.248 26.9074V30.2889H40.434L39.46 36.4752H33.248V53.5336C44.962 51.9763 54 42.1535 54 30.2379C54 17.2396 43.254 6.70093 30 6.70093Z" fill="white"/>
+                                </svg>
+                            </a>
                         </div>
                     </div>
-                    <div class="footer__middle">
-                        <h1 class="footer__header footer__middle-header">Вопрос - ответ</h1>
-                        <form class="footer__form">
-                            <input type="text" id="name" name="name" placeholder="Имя, фамилия" onkeypress="noDigits(event)" class="footer__form-input"/><br>
-                            <input type="email" id="mail" name="mail" placeholder="email" class="footer__form-input"><br>
-                            <textarea type="text" id="question" name="question" placeholder="Введите вопрос" class="footer__form-input"></textarea><br>
-                            <button class="footer__form-btn">Задать вопрос</button>
-                        </form>
-                    </div>
-                    <div class="footer__right">
-                        <h1 class="footer__header footer__right-header">Наши офисы:</h1>
-                        <ul class="footer__right-list">
-                            <li class="footer__right-item">Киев</li>
-                            <li class="footer__right-item">Львов</li>
-                            <li class="footer__right-item">Днепр</li>
-                        </ul>
-                    </div>
+                </div>
+                <div class="footer__middle">
+                    <h1 class="footer__header footer__middle-header">Вопрос - ответ</h1>
+                    <form class="footer__form">
+                        <input type="text" id="name" name="name" placeholder="Имя, фамилия" onkeypress="noDigits(event)" class="footer__form-input"/><br>
+                        <input type="email" id="mail" name="mail" placeholder="email" class="footer__form-input"><br>
+                        <textarea type="text" id="question" name="question" placeholder="Введите вопрос" class="footer__form-input"></textarea><br>
+                        <button class="footer__form-btn">Задать вопрос</button>
+                    </form>
+                </div>
+                <div class="footer__right">
+                    <h1 class="footer__header footer__right-header">Наши офисы:</h1>
+                    <ul class="footer__right-list">
+                        <li class="footer__right-item">Киев</li>
+                        <li class="footer__right-item">Львов</li>
+                        <li class="footer__right-item">Днепр</li>
+                    </ul>
                 </div>
             </div>
         </footer>

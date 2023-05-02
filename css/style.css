@@ -10,13 +10,14 @@ body {
 }
 
 .wrapper {
-    min-width: 1800px;
+    width: 100%;
+    min-width: 1750px;
+    margin: 0px auto;
 }
 
 .container {
-    max-width: 1720px;
-    padding: 0 40px;
-    margin: 0px auto;
+    padding-right: 40px;
+    padding-left: 40px;
 }
   
 li {
