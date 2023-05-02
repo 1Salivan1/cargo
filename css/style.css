@@ -8,7 +8,7 @@ body {
 *:after {
     box-sizing: border-box;
 }
-
+  
 .wrapper {
     width: 100%;
     min-width: 1750px;
@@ -19,6 +19,8 @@ body {
     padding-right: 40px;
     padding-left: 40px;
 }
+
+
   
 li {
     list-style-type: none; 
