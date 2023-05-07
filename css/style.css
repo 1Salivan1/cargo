@@ -8,19 +8,18 @@ body {
 *:after {
     box-sizing: border-box;
 }
-  
+
 .wrapper {
-    width: 100%;
-    min-width: 1750px;
-    margin: 0px auto;
+    min-width: 1400px;
 }
 
 .container {
-    padding-right: 40px;
-    padding-left: 40px;
+    max-width: 1700px;
+    width: 100%;    
+    margin: 0px auto;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-
-
   
 li {
     list-style-type: none; 
@@ -189,12 +188,14 @@ header {
 
 .do__list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     color: #103988;
 }
 
-.do__item:not(:last-child) {
-    margin-right: 46px;
+.do__item {
+    margin-right: 40px;
+    margin-bottom: 40px;
 }
 
 .do__item {
@@ -260,7 +261,12 @@ header {
 
 .footer__content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.footer_element {
+    margin-bottom: 20px;
 }
 
 .footer__left-header {
