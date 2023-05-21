@@ -1,6 +1,7 @@
 body {
     font-family: 'Cuprum', sans-serif;
     color: white;
+    width: 100%;
 }
 
 *,
@@ -10,12 +11,11 @@ body {
 }
 
 .wrapper {
-    min-width: 1400px;
+    width: 100%; 
 }
 
 .container {
-    max-width: 1700px;
-    width: 100%;    
+    max-width: 1700px;   
     margin: 0px auto;
     padding-left: 30px;
     padding-right: 30px;
@@ -88,7 +88,6 @@ header {
     margin-top: 0;
     font-weight: 700;
     font-size: 96px;
-    line-height: 111px;
     margin-bottom: 21px;
 }
 
@@ -96,7 +95,6 @@ header {
     width: 40%;
     font-weight: 400;
     font-size: 36px;
-    line-height: 42px;
     margin-top: 0;
     margin-bottom: 21px;
 }
@@ -105,7 +103,6 @@ header {
     cursor: pointer;
     font-weight: 400;
     font-size: 32px;
-    line-height: 37px;
     background: #FFB800;
     border-radius: 20px;
     padding: 24px 30px;
@@ -134,7 +131,6 @@ header {
     text-align: center;
     font-weight: 700;
     font-size: 64px;
-    line-height: 74px;
 }
 
 .why__item {
@@ -154,7 +150,6 @@ header {
 .why__item-header {
     font-weight: 700;
     font-size: 48px;
-    line-height: 55px;
     margin-top: 0;
     margin-bottom: 13px;
 }
@@ -217,7 +212,6 @@ header {
 .do__item-description {
     font-weight: 700;
     font-size: 40px;
-    line-height: 46px;
 }
 
 .do__item:hover {
@@ -243,7 +237,6 @@ header {
     text-align: center;
     font-weight: 700;
     font-size: 64px;
-    line-height: 74px;
 }
 
 .about__description {
@@ -356,7 +349,6 @@ header {
     border: none;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
     color: #353535;
     transition: box-shadow 0.2s;
 }
@@ -419,7 +411,6 @@ input {
     font-family: 'Cuprum';
     font-weight: 700;
     font-size: 32px;
-    line-height: 37px;
     text-align: center;
     margin-bottom: 56px;
     margin-top: 0;
@@ -439,7 +430,6 @@ input {
     font-family: 'Cuprum';
     font-weight: 700;
     font-size: 24px;
-    line-height: 28px;
     border-radius: 10px;
     cursor: pointer;
     position: relative;

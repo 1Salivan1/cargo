@@ -1,305 +1,76 @@
-@media screen and (max-width:786px) {
-    .container {
-        max-width: 1350px;
-    }
-    /* Header */
-    .header__content {
-        margin-left: 44px;
-        margin-right: 44px;
-    }
-
-    .header__nav-item {
-        font-weight: 700;
-        font-size: 42px;
-        line-height: 37px;
-    } 
-
-    .main__content {
-        margin-left: 44px;
-    }
-
-    .main__header {
-        font-weight: 700;
-        font-size: 150px;
-        margin: 0;
-    }
-
-    .main__description {
-        font-weight: 400;
-        font-size: 60px;
-        width: 60%;
-        margin-top: 60px;
-        margin-bottom: 0;
-    }
-
-    .main__btn {
-        font-weight: 400;
-        font-size: 80px;
-        padding: 50px 50px;
-        margin-top: 60px;
-    }
-
-    /* Main */
-    .why__header {
-        font-size: 100px;
-    }
-
-    .why__item-header {
-        font-size: 80px;
-    }
-
-    .why__item-description {
-        font-size: 45px;
-        margin-top: 26px;
-    }
-
-    .why__content {
-        margin-left: 44px;
-    }
-
-    /* What we do */
-    .do__list {
-        padding: 0px 250px;
-        flex-wrap: wrap;
-    }
-
-    .do__item {
-        margin-right: 46px;
-        margin-top: 23px;
-    }
-
-    .do__header {
-        font-size: 100px;
-    }
-
-    .do__item-description {
-        font-size: 70px;
-    }
-
-    /* About */
-    .about__header {
-        font-size: 100px;
-    }
-
-    .about__description {
-        font-size: 60px;
-        margin-left: 44px;
-        margin-right: 44px;
-        width: 100%;
-    }
-
-    .about__img {
-        display: none;
-    }
-
-    /* Footer */
-    .footer__content {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .footer__left {
-        margin-right: 0px;
-    }
-
-    .footer__header {
-        font-size: 100px;
-    }
-
-    .footer__left-header-list {
-        font-size: 60px;
-    }
-
-    .footer__item {
-        font-size: 50px;
-    }
-
-    .footer__left-list-social {
-        display: block;
-        text-align: center;
-    }
-
-    .footer__social-item {
-        margin-right: 27px;
-    }
-
-    #name {
-        width: 650px;
-        height: 100px;
-    }
-
-    #mail {
-        width: 650px;
-        height: 100px;
-    }
-
-    #question {
-        width: 650px;
-        height: 400px;
-    }
-
-    .footer__form-btn {
-        font-size: 80px;
-        padding: 30px 80px;
-    }
-
-    .footer__right {
-        margin-left: 0px;
-    }
-
-    .footer__right-list {
-        text-align: center;
-        font-size: 60px;
-    }
-
-    .popup-country__header {
-        font-size: 100px;
-    }
-
-    .popup-country__text {
-        font-size: 50px;
-    }
-
-    .popup-country__button {
-        font-size: 40px;
-        padding: 40px 50px;
-    }
-}
-
-@media screen and (max-width: 430px) {
-    /* Header */
-    * {
-        margin-left: 0;
-    }
-
-    .header__content {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin: 0;
-    }
-
+@media screen and (max-width:1100px) {
     .header__logo-link {
         display: none;
     }
 
     .header__nav {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        margin: 0 auto;
     }
+}
 
+@media screen and (max-width: 980px) {
     .header__nav-item {
-        font-size: 100px;
+        font-size: 20px;
     }
-
-    .header__nav-item {
-        margin-bottom: 100px;
-    }
-
-    .header__nav-item:first-child {
-        margin-top: 100px;
-    }
-
+    
     .header__nav-item:not(:last-child) {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    /* Main */
-    .main__content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-bottom: 120px;
-        margin: 0;
+        margin-right: 100px;
     }
 
     .main__header {
-        font-size: 100px;
-        text-align: center;
-        width: 70%;
+        font-size: 50px;
     }
 
     .main__description {
-        font-size: 65px;
-        text-align: center;
+        font-size: 25px;
     }
 
-    /* Why */
-    .why__content {
-        text-align: center;
+    .main__btn {
+        font-size: 25px;
     }
 
-    .why__list{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .why__item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .why__item-img {
-        display: none;
-    }
-
-    .why__header{
-        font-size: 100px;
-        margin-bottom: 100px;
-    }
-
-    .why__item-left {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .why__header {
+        font-size: 50px;
     }
 
     .why__item-header {
-        font-size: 75px;
+        font-size: 25px;
     }
 
     .why__item-description {
-        font-size: 60px;
-        width: 50%;
+        font-size: 20px;
     }
 
-    /* Do */
     .do__header {
-        font-size: 100px;
+        font-size: 50px;
     }
 
-    .do__list {
-        flex-direction: column;
-        margin-right: 0px;
+    .do__item-description {
+        font-size: 25px;
     }
 
-    .do__item {
-        margin-right: 0px;
-    }
-
-    .do__item:not(:last-child){
-        margin-right: 0px;
-    }
-
-    .do__block {
-        padding: 0;
-    }
-
-    /* About */
     .about__header {
-        font-size: 100px;
+        font-size: 50px;
     }
-
 
     .about__description {
-        margin: 0;
-        font-size: 70px;
-        padding-left: 300px;
-        padding-right: 300px;
-        text-align: center;
+        font-size: 25px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .header__nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__nav-item {
+        font-size: 30px;
+    }
+
+    .header__nav-item:not(:last-child) {
+        margin-right: 0;
     }
 }
