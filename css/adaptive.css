@@ -73,4 +73,21 @@
     .header__nav-item:not(:last-child) {
         margin-right: 0;
     }
+
+    .footer__header {
+        font-size: 50px;
+    }
+
+    .footer__left-header-list {
+        font-size: 30px;
+    }
+
+    .footer__item {
+        font-size: 20px;
+    }
+
+    .footer__right-list {
+        text-align: center;
+        font-size: 30px;
+    }
 }
