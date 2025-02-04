@@ -34,7 +34,6 @@
                 </div>
                 <nav class="header__nav">
                     <a class="header__nav-item anchor" href="#about">О компании</a>
-                    <a class="header__nav-item">Цены</a>
                     <a class="header__nav-item anchor" href="#service">Услуги</a>
                     <a class="header__nav-item country">Страны</a>
                 </nav>
@@ -129,14 +128,11 @@
                 <h1 class="about__header wow animate__animated animate__fadeInDown">О нас</h1>
                 <div class="about__block">
                     <p class="about__description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                        do eiusmod tempor. 
-                        <br>Incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                        veniam, quis  nostrud exercitation ullamco laboris nisi ut aliquip 
-                        ex ea commodo consequat. 
-                        <br>Duis aute irure dolor in reprehenderit in voluptatevelit esse 
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        CarGO – это современная логистическая компания, специализирующаяся на международных и региональных перевозках по суше, морю, воздуху и железной дороге. 
+                        Мы предлагаем комплексные решения для бизнеса, обеспечивая быструю, надежную и эффективную доставку грузов в любую точку мира. 
+                        Наши клиенты доверяют нам благодаря индивидуальному подходу, прозрачному ценообразованию и высокому уровню сервиса. 
+                        Используем передовые технологии для отслеживания и оптимизации маршрутов, гарантируя безопасность и своевременность каждой перевозки. 
+                        CarGO – движущая сила вашей логистики!
                     </p>
                     <!-- <img class="about__img" src="img/illustration.png"> -->
                 </div>
@@ -221,12 +217,38 @@
             <div class="popup-county__content">
                 <h1 class="popup-country__header">Страны</h1>
                 <p class="popup-country__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Maecenas sit amet lectus et lacus gravida ullamcorper in sed arcu. 
-                    Integer ligula velit, lobortis nec velit in, vestibulum aliquam turpis. 
-                    Proin feugiat ultricies odio, a posuere diam congue ac. 
+                    Мы осуществляем доставку в более чем 50 стран по всему миру, включая Европу, Азию, Северную и Южную Америку, а также Африку и Австралию. 
+                    Независимо от того, где находится ваш груз, CarGO обеспечит его безопасную и своевременную доставку в любую точку планеты.
                 </p>
                 <button class="popup-country__button">Закрыть</button>
+            </div>
+        </div>
+
+        <div class="popup-order">
+            <div class="popup-order__content">
+                <h1 class="popup-order__header">Оформить заказ</h1>
+                <form id="popup-order__form" class="popup-order__form">
+                    <label for="sender-name">ФИО отправителя:</label>
+                    <input type="text" id="sender-name" name="sender-name" placeholder="Введите ФИО отправителя" class="popup-order__input" required>
+        
+                    <label for="sender-address">Адрес отправки:</label>
+                    <input type="text" id="sender-address" name="sender-address" placeholder="Введите адрес отправки" class="popup-order__input" required>
+        
+                    <label for="delivery-address">Адрес доставки:</label>
+                    <input type="text" id="delivery-address" name="delivery-address" placeholder="Введите адрес доставки" class="popup-order__input" required>
+        
+                    <label for="phone">Номер телефона:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Введите номер телефона" class="popup-order__input" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Введите почту" class="popup-order__input" required>
+        
+                    <label for="cargo-description">Описание груза:</label>
+                    <textarea id="cargo-description" name="cargo-description" placeholder="Введите описание груза" class="popup-order__textarea" required></textarea>
+        
+                    <button type="submit" class="popup-order__submit-btn">Отправить заказ</button>
+                </form>
+                <button class="popup-order__close-btn">Закрыть</button>
             </div>
         </div>
     </div>
